@@ -1,6 +1,7 @@
 import { Sorter } from "./sorter";
 import { NumbersCollection } from "./NumberCollections";
 import { CharacterCollection } from "./CharacterCollection";
+import { LinkedList } from "./LinkedList";
 
 // const numberCollections = new NumbersCollection([1,3,-5,7,9]);
 // const sorter = new Sorter(numberCollections);
@@ -11,3 +12,16 @@ const characterCollection = new CharacterCollection("Abytyzopmjklx");
 const sorter = new Sorter(characterCollection);
 sorter.sort();
 console.log(characterCollection.data)
+
+// const linkedList = new LinkedList();
+// linkedList.add(500);
+// linkedList.add(-10);
+// linkedList.add(-3);
+// linkedList.add(8)
+
+// const sorter = new Sorter(linkedList);
+// sorter.sort();
+
+// console.log(linkedList.print())
+// console.log(linkedList);
+// console.log("I love Jesus");
